@@ -1,14 +1,14 @@
 #include "iostream"
 using namespace std;
 template <class T>
-class vectorClass{
+class VectorClass{
     private:
         T* arr;
         int capacity;
         int size;
 
     public:
-        vectorClass(){
+        VectorClass(){
             arr = new T[2];
             capacity=1;
             size=0;
@@ -87,7 +87,7 @@ class vectorClass{
 
 int main(){
     //int
-    vectorClass<int> v_int;
+    VectorClass<int> v_int;
     v_int.push_back(3);
     v_int.push_back(5);
     v_int.display();
@@ -95,7 +95,7 @@ int main(){
     v_int.display();
 
     //string
-    vectorClass<string> v_string;
+    VectorClass<string> v_string;
     v_string.push_back("one");
     v_string.push_back("two");
     v_string.display();
