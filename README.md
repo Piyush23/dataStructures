@@ -1,2 +1,3 @@
 # dataStructures
-1. Vectors
+  - Vectors
+  - LinkedList
